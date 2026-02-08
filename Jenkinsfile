@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/hackwithabhi1/terraform.git'
+                git branch: 'main', url: 'https://github.com/kiran-sehgal/iac_pro_2026.git'
             }
         }
         stage('Terraform init') {
